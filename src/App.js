@@ -12,7 +12,7 @@ function App() {
       id: "e2",
       title: "Car Insurance",
       amount: "220.00",
-      date: new Date(2023, 1, 4),
+      date: new Date(2023, 2, 4),
     },
   ]; 
 
