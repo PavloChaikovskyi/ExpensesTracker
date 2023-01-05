@@ -1,4 +1,4 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 import React from 'react'
 
 function App() {
@@ -28,13 +28,6 @@ function App() {
       <h2>Let's get started!</h2>
       <Expenses  items={expenses}/>
     </div>
-
-    // React.createElement(
-    //   "div",
-    //   { className: "App-header" },
-    //   React.createElement("h2", {}, "Let's get started!")
-    // ),
-    // React.createElement(Expenses, { items: expenses })
   );
 }
 
