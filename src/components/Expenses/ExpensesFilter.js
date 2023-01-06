@@ -1,13 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import './ExpensesFilter.css';
 
 const ExpensesFilter = (props) => {
   
-    // const [selectedOption, setSelectedOption] = useState('');
-
     const dropdownChangeHandler = e => {
-        // setSelectedOption(e.target.value);
         props.onChangeFilter(e.target.value); 
     }
   
