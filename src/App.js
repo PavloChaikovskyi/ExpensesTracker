@@ -18,7 +18,13 @@ const App = () => {
       date: new Date(2023, 2, 4),
     },
     {
-      id: "e2",
+      id: "e3",
+      title: "Candies",
+      amount: "230.00",
+      date: new Date(2023, 2, 5),
+    },
+    {
+      id: "e4",
       title: "Candies",
       amount: "230.00",
       date: new Date(2023, 2, 5),
