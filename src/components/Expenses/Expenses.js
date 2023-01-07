@@ -13,7 +13,7 @@ const filterChangeHandler = (selectedYear) => {
   setFilteredYear(selectedYear);
 };
 
-const filteredExpenses = filteredYear == 'All' ? props.items : props.items.filter(
+const filteredExpenses = filteredYear.toString() === 'All' ? props.items : props.items.filter(
   (item) => item.date.getFullYear().toString() === filteredYear
 );
 
